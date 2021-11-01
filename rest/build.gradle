@@ -12,8 +12,19 @@ repositories {
 	mavenCentral()
 }
 
+//removes spring default logs
+configurations {
+	all.collect { configuration ->
+		configuration.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+	}
+}
+
 dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-log4j2'       // formats logs
+	implementation 'org.springframework.boot:spring-boot-starter-amqp'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

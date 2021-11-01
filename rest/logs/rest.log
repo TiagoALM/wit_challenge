@@ -1,0 +1,182 @@
+2021-11-01T11:53:14.991Z | INFO  |          main | c.w.r.RestApplication               | logStarting              : [{}] Starting RestApplication using Java 15.0.2 on Cat with PID 1540 (C:\Users\marti\Documents\wit_desafio\rest\build\classes\java\main started by marti in C:\Users\marti\Documents\wit_desafio\rest)
+2021-11-01T11:53:15.001Z | INFO  |          main | c.w.r.RestApplication               | logStartupProfileInfo    : [{}] No active profile set, falling back to default profiles: default
+2021-11-01T11:53:15.948Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | initialize               : [{}] Tomcat initialized with port(s): 8080 (http)
+2021-11-01T11:53:15.964Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-01T11:53:15.964Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Starting service [Tomcat]
+2021-11-01T11:53:15.964Z | INFO  |          main | o.a.c.c.StandardEngine              | log                      : [{}] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-01T11:53:16.058Z | INFO  |          main | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring embedded WebApplicationContext
+2021-11-01T11:53:16.058Z | INFO  |          main | .ServletWebServerApplicationContext | prepareWebApplicationContext: [{}] Root WebApplicationContext: initialization completed in 1021 ms
+2021-11-01T11:53:16.084Z | INFO  |          main | o.s.b.w.s.RegistrationBean          | register                 : [{}] Filter loggerFilter was not registered (possibly already registered?)
+2021-11-01T11:53:16.499Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-01T11:53:16.530Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | start                    : [{}] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-01T11:53:16.546Z | INFO  |          main | c.w.r.RestApplication               | logStarted               : [{}] Started RestApplication in 1.834 seconds (JVM running for 3.285)
+2021-11-01T11:54:22.944Z | INFO  | o-8080-exec-2 | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-01T11:54:22.944Z | INFO  | o-8080-exec-2 | o.s.w.s.DispatcherServlet           | initServletBean          : [{}] Initializing Servlet 'dispatcherServlet'
+2021-11-01T11:54:22.945Z | INFO  | o-8080-exec-2 | o.s.w.s.DispatcherServlet           | initServletBean          : [{}] Completed initialization in 1 ms
+2021-11-01T11:54:37.093Z | INFO  | o-8080-exec-4 | o.s.a.r.c.CachingConnectionFactory  | connectHostPort          : [{UUID=9AF9A6FF-FD8D-42F2-9DC8-0E89A0F32E59}] Attempting to connect to: localhost:5672
+2021-11-01T11:54:37.132Z | INFO  | o-8080-exec-4 | o.s.a.r.c.CachingConnectionFactory  | createBareConnection     : [{UUID=9AF9A6FF-FD8D-42F2-9DC8-0E89A0F32E59}] Created new connection: connectionFactory#43a09ce2:0/SimpleConnection@7bb7a486 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 51308]
+2021-11-01T11:54:37.183Z | INFO  | o-8080-exec-4 | rectReplyToMessageListenerContainer | actualStart              : [{UUID=9AF9A6FF-FD8D-42F2-9DC8-0E89A0F32E59}] Container initialized for queues: [amq.rabbitmq.reply-to]
+2021-11-01T11:54:37.196Z | INFO  | o-8080-exec-4 | rectReplyToMessageListenerContainer | doConsumeFromQueue       : [{UUID=9AF9A6FF-FD8D-42F2-9DC8-0E89A0F32E59}] SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-vkBxAFHc8CfcJXXpn_i-Eg identity=269138a4] started
+2021-11-01T22:07:36.187Z | INFO  |          main | c.w.r.RestApplication               | logStarting              : [{}] Starting RestApplication using Java 15.0.2 on Cat with PID 15124 (C:\Users\marti\Documents\GitHub\wit_challenge\rest\build\classes\java\main started by marti in C:\Users\marti\Documents\GitHub\wit_challenge\rest)
+2021-11-01T22:07:36.187Z | INFO  |          main | c.w.r.RestApplication               | logStartupProfileInfo    : [{}] No active profile set, falling back to default profiles: default
+2021-11-01T22:07:37.112Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | initialize               : [{}] Tomcat initialized with port(s): 8080 (http)
+2021-11-01T22:07:37.127Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:37.127Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Starting service [Tomcat]
+2021-11-01T22:07:37.127Z | INFO  |          main | o.a.c.c.StandardEngine              | log                      : [{}] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-01T22:07:37.206Z | INFO  |          main | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring embedded WebApplicationContext
+2021-11-01T22:07:37.206Z | INFO  |          main | .ServletWebServerApplicationContext | prepareWebApplicationContext: [{}] Root WebApplicationContext: initialization completed in 972 ms
+2021-11-01T22:07:37.221Z | INFO  |          main | o.s.b.w.s.RegistrationBean          | register                 : [{}] Filter loggerFilter was not registered (possibly already registered?)
+2021-11-01T22:07:37.603Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:37.603Z | WARN  |          main | gServletWebServerApplicationContext | refresh                  : [{}] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-11-01T22:07:37.603Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Pausing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:37.603Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Stopping service [Tomcat]
+2021-11-01T22:07:37.603Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Stopping ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:37.603Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Destroying ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:37.618Z | INFO  |          main | tionEvaluationReportLoggingListener | logMessage               : [{}] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-01T22:07:37.634Z | ERROR |          main | .b.d.LoggingFailureAnalysisReporter | report                   : [{}] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-11-01T22:07:47.522Z | INFO  |          main | c.w.r.RestApplication               | logStarting              : [{}] Starting RestApplication using Java 15.0.2 on Cat with PID 20112 (C:\Users\marti\Documents\GitHub\wit_challenge\rest\build\classes\java\main started by marti in C:\Users\marti\Documents\GitHub\wit_challenge\rest)
+2021-11-01T22:07:47.531Z | INFO  |          main | c.w.r.RestApplication               | logStartupProfileInfo    : [{}] No active profile set, falling back to default profiles: default
+2021-11-01T22:07:48.333Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | initialize               : [{}] Tomcat initialized with port(s): 8080 (http)
+2021-11-01T22:07:48.349Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:48.349Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Starting service [Tomcat]
+2021-11-01T22:07:48.349Z | INFO  |          main | o.a.c.c.StandardEngine              | log                      : [{}] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-01T22:07:48.427Z | INFO  |          main | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring embedded WebApplicationContext
+2021-11-01T22:07:48.427Z | INFO  |          main | .ServletWebServerApplicationContext | prepareWebApplicationContext: [{}] Root WebApplicationContext: initialization completed in 873 ms
+2021-11-01T22:07:48.442Z | INFO  |          main | o.s.b.w.s.RegistrationBean          | register                 : [{}] Filter loggerFilter was not registered (possibly already registered?)
+2021-11-01T22:07:48.826Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:48.826Z | WARN  |          main | gServletWebServerApplicationContext | refresh                  : [{}] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-11-01T22:07:48.826Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Pausing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:48.841Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Stopping service [Tomcat]
+2021-11-01T22:07:48.841Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Stopping ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:48.841Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Destroying ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:07:48.841Z | INFO  |          main | tionEvaluationReportLoggingListener | logMessage               : [{}] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-01T22:07:48.857Z | ERROR |          main | .b.d.LoggingFailureAnalysisReporter | report                   : [{}] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-11-01T22:17:09.681Z | INFO  |          main | c.w.r.RestApplication               | logStarting              : [{}] Starting RestApplication using Java 15.0.2 on Cat with PID 11240 (C:\Users\marti\Documents\GitHub\wit_challenge\rest\build\classes\java\main started by marti in C:\Users\marti\Documents\GitHub\wit_challenge\rest)
+2021-11-01T22:17:09.688Z | INFO  |          main | c.w.r.RestApplication               | logStartupProfileInfo    : [{}] No active profile set, falling back to default profiles: default
+2021-11-01T22:17:10.400Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | initialize               : [{}] Tomcat initialized with port(s): 8080 (http)
+2021-11-01T22:17:10.415Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:17:10.415Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Starting service [Tomcat]
+2021-11-01T22:17:10.415Z | INFO  |          main | o.a.c.c.StandardEngine              | log                      : [{}] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-01T22:17:10.494Z | INFO  |          main | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring embedded WebApplicationContext
+2021-11-01T22:17:10.494Z | INFO  |          main | .ServletWebServerApplicationContext | prepareWebApplicationContext: [{}] Root WebApplicationContext: initialization completed in 773 ms
+2021-11-01T22:17:10.520Z | INFO  |          main | o.s.b.w.s.RegistrationBean          | register                 : [{}] Filter loggerFilter was not registered (possibly already registered?)
+2021-11-01T22:17:10.892Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:17:10.892Z | WARN  |          main | gServletWebServerApplicationContext | refresh                  : [{}] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-11-01T22:17:10.892Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Pausing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:17:10.892Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Stopping service [Tomcat]
+2021-11-01T22:17:10.907Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Stopping ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:17:10.907Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Destroying ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:17:10.907Z | INFO  |          main | tionEvaluationReportLoggingListener | logMessage               : [{}] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-01T22:17:10.923Z | ERROR |          main | .b.d.LoggingFailureAnalysisReporter | report                   : [{}] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-11-01T22:21:45.200Z | INFO  |          main | c.w.r.RestApplication               | logStarting              : [{}] Starting RestApplication using Java 15.0.2 on Cat with PID 12188 (C:\Users\marti\Documents\GitHub\wit_challenge\rest\build\classes\java\main started by marti in C:\Users\marti\Documents\GitHub\wit_challenge\rest)
+2021-11-01T22:21:45.218Z | INFO  |          main | c.w.r.RestApplication               | logStartupProfileInfo    : [{}] No active profile set, falling back to default profiles: default
+2021-11-01T22:21:45.928Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | initialize               : [{}] Tomcat initialized with port(s): 8080 (http)
+2021-11-01T22:21:45.944Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:21:45.944Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Starting service [Tomcat]
+2021-11-01T22:21:45.944Z | INFO  |          main | o.a.c.c.StandardEngine              | log                      : [{}] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-01T22:21:46.022Z | INFO  |          main | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring embedded WebApplicationContext
+2021-11-01T22:21:46.022Z | INFO  |          main | .ServletWebServerApplicationContext | prepareWebApplicationContext: [{}] Root WebApplicationContext: initialization completed in 780 ms
+2021-11-01T22:21:46.038Z | INFO  |          main | o.s.b.w.s.RegistrationBean          | register                 : [{}] Filter loggerFilter was not registered (possibly already registered?)
+2021-11-01T22:21:46.413Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:21:46.444Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | start                    : [{}] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-01T22:21:46.444Z | INFO  |          main | c.w.r.RestApplication               | logStarted               : [{}] Started RestApplication in 1.531 seconds (JVM running for 2.861)
+2021-11-01T22:23:02.369Z | INFO  | o-8080-exec-2 | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-01T22:23:02.370Z | INFO  | o-8080-exec-2 | o.s.w.s.DispatcherServlet           | initServletBean          : [{}] Initializing Servlet 'dispatcherServlet'
+2021-11-01T22:23:02.371Z | INFO  | o-8080-exec-2 | o.s.w.s.DispatcherServlet           | initServletBean          : [{}] Completed initialization in 1 ms
+2021-11-01T22:23:02.454Z | INFO  | o-8080-exec-2 | o.s.a.r.c.CachingConnectionFactory  | connectHostPort          : [{UUID=7FBFAE4B-EE36-433B-829C-82A2DC9F98D1}] Attempting to connect to: localhost:5672
+2021-11-01T22:23:02.500Z | INFO  | o-8080-exec-2 | o.s.a.r.c.CachingConnectionFactory  | createBareConnection     : [{UUID=7FBFAE4B-EE36-433B-829C-82A2DC9F98D1}] Created new connection: connectionFactory#553bc36c:0/SimpleConnection@30113f76 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 51394]
+2021-11-01T22:23:02.542Z | INFO  | o-8080-exec-2 | rectReplyToMessageListenerContainer | actualStart              : [{UUID=7FBFAE4B-EE36-433B-829C-82A2DC9F98D1}] Container initialized for queues: [amq.rabbitmq.reply-to]
+2021-11-01T22:23:02.555Z | INFO  | o-8080-exec-2 | rectReplyToMessageListenerContainer | doConsumeFromQueue       : [{UUID=7FBFAE4B-EE36-433B-829C-82A2DC9F98D1}] SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-Izr_0X0qbTtj5dvid8PKgA identity=5215abc2] started
+2021-11-01T22:34:10.886Z | INFO  | o-8080-exec-6 | rectReplyToMessageListenerContainer | doConsumeFromQueue       : [{UUID=601E68E0-77C4-4DF4-9A1C-99B4A198A3CC}] SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-5JndOKN9Krf_yNzYpEPExQ identity=4d102484] started
+2021-11-01T22:37:52.900Z | INFO  | nShutdownHook | rectReplyToMessageListenerContainer | doShutdown               : [{}] Successfully waited for consumers to finish.
+2021-11-01T22:37:55.754Z | INFO  |          main | c.w.r.RestApplication               | logStarting              : [{}] Starting RestApplication using Java 15.0.2 on Cat with PID 16520 (C:\Users\marti\Documents\GitHub\wit_challenge\rest\build\classes\java\main started by marti in C:\Users\marti\Documents\GitHub\wit_challenge\rest)
+2021-11-01T22:37:55.762Z | INFO  |          main | c.w.r.RestApplication               | logStartupProfileInfo    : [{}] No active profile set, falling back to default profiles: default
+2021-11-01T22:37:56.486Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | initialize               : [{}] Tomcat initialized with port(s): 8080 (http)
+2021-11-01T22:37:56.502Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:37:56.502Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Starting service [Tomcat]
+2021-11-01T22:37:56.503Z | INFO  |          main | o.a.c.c.StandardEngine              | log                      : [{}] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-01T22:37:56.575Z | INFO  |          main | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring embedded WebApplicationContext
+2021-11-01T22:37:56.575Z | INFO  |          main | .ServletWebServerApplicationContext | prepareWebApplicationContext: [{}] Root WebApplicationContext: initialization completed in 783 ms
+2021-11-01T22:37:56.596Z | INFO  |          main | o.s.b.w.s.RegistrationBean          | register                 : [{}] Filter loggerFilter was not registered (possibly already registered?)
+2021-11-01T22:37:56.951Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:37:56.978Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | start                    : [{}] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-01T22:37:56.986Z | INFO  |          main | c.w.r.RestApplication               | logStarted               : [{}] Started RestApplication in 1.477 seconds (JVM running for 2.379)
+2021-11-01T22:38:10.852Z | INFO  | o-8080-exec-1 | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-01T22:38:10.852Z | INFO  | o-8080-exec-1 | o.s.w.s.DispatcherServlet           | initServletBean          : [{}] Initializing Servlet 'dispatcherServlet'
+2021-11-01T22:38:10.853Z | INFO  | o-8080-exec-1 | o.s.w.s.DispatcherServlet           | initServletBean          : [{}] Completed initialization in 1 ms
+2021-11-01T22:38:52.456Z | INFO  |          main | c.w.r.RestApplication               | logStarting              : [{}] Starting RestApplication using Java 15.0.2 on Cat with PID 10908 (C:\Users\marti\Documents\GitHub\wit_challenge\rest\build\classes\java\main started by marti in C:\Users\marti\Documents\GitHub\wit_challenge\rest)
+2021-11-01T22:38:52.464Z | INFO  |          main | c.w.r.RestApplication               | logStartupProfileInfo    : [{}] No active profile set, falling back to default profiles: default
+2021-11-01T22:38:53.183Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | initialize               : [{}] Tomcat initialized with port(s): 8080 (http)
+2021-11-01T22:38:53.198Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:38:53.199Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Starting service [Tomcat]
+2021-11-01T22:38:53.199Z | INFO  |          main | o.a.c.c.StandardEngine              | log                      : [{}] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-01T22:38:53.273Z | INFO  |          main | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring embedded WebApplicationContext
+2021-11-01T22:38:53.274Z | INFO  |          main | .ServletWebServerApplicationContext | prepareWebApplicationContext: [{}] Root WebApplicationContext: initialization completed in 776 ms
+2021-11-01T22:38:53.295Z | INFO  |          main | o.s.b.w.s.RegistrationBean          | register                 : [{}] Filter loggerFilter was not registered (possibly already registered?)
+2021-11-01T22:38:53.655Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:38:53.683Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | start                    : [{}] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-01T22:38:53.691Z | INFO  |          main | c.w.r.RestApplication               | logStarted               : [{}] Started RestApplication in 1.493 seconds (JVM running for 2.346)
+2021-11-01T22:42:14.145Z | INFO  |          main | c.w.r.RestApplication               | logStarting              : [{}] Starting RestApplication using Java 15.0.2 on Cat with PID 6568 (C:\Users\marti\Documents\GitHub\wit_challenge\rest\build\classes\java\main started by marti in C:\Users\marti\Documents\GitHub\wit_challenge\rest)
+2021-11-01T22:42:14.153Z | INFO  |          main | c.w.r.RestApplication               | logStartupProfileInfo    : [{}] No active profile set, falling back to default profiles: default
+2021-11-01T22:42:14.878Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | initialize               : [{}] Tomcat initialized with port(s): 8080 (http)
+2021-11-01T22:42:14.892Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:42:14.893Z | INFO  |          main | o.a.c.c.StandardService             | log                      : [{}] Starting service [Tomcat]
+2021-11-01T22:42:14.893Z | INFO  |          main | o.a.c.c.StandardEngine              | log                      : [{}] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-01T22:42:14.958Z | INFO  |          main | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring embedded WebApplicationContext
+2021-11-01T22:42:14.958Z | INFO  |          main | .ServletWebServerApplicationContext | prepareWebApplicationContext: [{}] Root WebApplicationContext: initialization completed in 774 ms
+2021-11-01T22:42:14.979Z | INFO  |          main | o.s.b.w.s.RegistrationBean          | register                 : [{}] Filter loggerFilter was not registered (possibly already registered?)
+2021-11-01T22:42:15.331Z | INFO  |          main | o.a.c.h.Http11NioProtocol           | log                      : [{}] Starting ProtocolHandler ["http-nio-8080"]
+2021-11-01T22:42:15.359Z | INFO  |          main | o.s.b.w.e.t.TomcatWebServer         | start                    : [{}] Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-01T22:42:15.367Z | INFO  |          main | c.w.r.RestApplication               | logStarted               : [{}] Started RestApplication in 1.478 seconds (JVM running for 2.424)
+2021-11-01T22:42:21.426Z | INFO  | o-8080-exec-2 | o.a.c.c.C.[.[.[/]                   | log                      : [{}] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-01T22:42:21.426Z | INFO  | o-8080-exec-2 | o.s.w.s.DispatcherServlet           | initServletBean          : [{}] Initializing Servlet 'dispatcherServlet'
+2021-11-01T22:42:21.427Z | INFO  | o-8080-exec-2 | o.s.w.s.DispatcherServlet           | initServletBean          : [{}] Completed initialization in 1 ms
+2021-11-01T22:54:56.961Z | INFO  | o-8080-exec-5 | o.s.a.r.c.CachingConnectionFactory  | connectHostPort          : [{UUID=2CACFC3A-9387-4521-9E02-F405F1127DD8}] Attempting to connect to: localhost:5672
+2021-11-01T22:54:56.994Z | INFO  | o-8080-exec-5 | o.s.a.r.c.CachingConnectionFactory  | createBareConnection     : [{UUID=2CACFC3A-9387-4521-9E02-F405F1127DD8}] Created new connection: connectionFactory#4fe64d23:0/SimpleConnection@37e06361 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57172]
+2021-11-01T22:54:57.047Z | INFO  | o-8080-exec-5 | rectReplyToMessageListenerContainer | actualStart              : [{UUID=2CACFC3A-9387-4521-9E02-F405F1127DD8}] Container initialized for queues: [amq.rabbitmq.reply-to]
+2021-11-01T22:54:57.058Z | INFO  | o-8080-exec-5 | rectReplyToMessageListenerContainer | doConsumeFromQueue       : [{UUID=2CACFC3A-9387-4521-9E02-F405F1127DD8}] SimpleConsumer [queue=amq.rabbitmq.reply-to, index=0, consumerTag=amq.ctag-fIJj-iEPhanU7LdZxOwZoQ identity=340dcb3] started

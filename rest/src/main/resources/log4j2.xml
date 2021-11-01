@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
+            <PatternLayout disableAnsi="false" pattern="%highlight{%d{yyyy-MM-dd'T'HH:mm:ss.SSS'Z'}{UTC} | %-5p | %13.13t | %-35.35logger{1.} | %-25.50M: [%X] %msg%n}{FATAL=blinking bright bold red, ERROR=bright bold red, WARN=bright magenta, INFO=bright yellow, DEBUG=bright bold blue, TRACE=white}" />
+        </Console>
+        <RollingFile name="FileAppender" fileName="./logs/rest.log"
+                     filePattern="./logs/rest-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout>
+                <Pattern>%highlight{%d{yyyy-MM-dd'T'HH:mm:ss.SSS'Z'}{UTC} | %-5p | %13.13t | %-35.35logger{1.} | %-25.50M: [%X] %msg%n}{FATAL=blinking bright bold red, ERROR=bright bold red, WARN=bright magenta, INFO=bright yellow, DEBUG=bright bold blue, TRACE=white}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" />
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="15" />
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="ConsoleAppender" />
+            <AppenderRef ref="FileAppender" />
+        </Root>
+    </Loggers>
+</Configuration>
